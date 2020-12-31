@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <div class="container">
+        {% include "blog/partials/header.twig" %}
+        {% block content %}{% endblock %}
+        {% include "blog/partials/footer.twig" %}
+    </div>
+</body>
+</html>
